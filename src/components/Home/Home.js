@@ -8,7 +8,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 function Home() {
   return (
@@ -27,7 +27,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> SORAWAK ABEYA</strong>
+                <strong className="main-name"> LEUL ABERA</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -58,7 +58,7 @@ function Home() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Sora1o1"
+                  href="https://github.com/Leul4ever"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -66,10 +66,10 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-              
+
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/sorawak-abeya-8033ba266/"
+                  href="https://www.linkedin.com/in/leul-dev/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,12 +79,22 @@ function Home() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sora_ab1/"
+                  href="https://www.instagram.com/leul7abera/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://t.me/Leul4God"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaTelegramPlane />
                 </a>
               </li>
             </ul>

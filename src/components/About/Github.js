@@ -11,11 +11,11 @@ function Github() {
         color: "white",
       }}
     >
-      <h1 className="project-heading pb-4" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
+        I actively use <strong className="purple">GitHub</strong> to build, experiment, and document my learning
       </h1>
       <GitHubCalendar
-        username="sora1o1"
+        username="Leul4ever"
         blockSize={30}
         blockMargin={10}
         color="#c084f5"

@@ -13,34 +13,18 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a passionate Flutter Developer focused on building beautiful, 
-              high-quality mobile apps for iOS and Android. I specialize in crafting seamless user experiences with clean architecture,
-               real-time features, and smooth animations. 
+              I’m a Software Engineer with a strong focus on data analytics, artificial intelligence, and machine learning. I enjoy working with data end-to-end — from collecting and cleaning it, to analyzing patterns, building models, and turning insights into actionable solutions.
               <br />
               <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  Flutter, React.js, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy learning new technologies and pushing creative boundaries.
+              I have hands-on experience designing data pipelines, working with relational databases, and building analytics workflows using Python and SQL. I’m comfortable handling both structured and unstructured data, and I value data quality, reproducibility, and clear communication of insights.
               <br />
               <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                   cross-platform mobile applications,  real-time communication systems,  AI-driven experiences, {" "}
-                </b>
-              </i>
-              and scalable software architectures.
+              Alongside data and AI, I build full-stack web applications and cross-platform mobile apps. I enjoy developing clean, maintainable backends, intuitive user interfaces, and systems where data and intelligence are seamlessly integrated into real products.
               <br />
               <br />
-               I   {" "}<b className="purple">love </b> {" "} every step of the journey. Let's build something amazing together.
+              I’m motivated by solving real problems, learning continuously, and building software that is both technically sound and practically useful.
 
-             
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
