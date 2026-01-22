@@ -11,9 +11,9 @@ function ContactForm() {
         Example: action="https://formspree.io/f/xbldwlgj"
       */}
       <Form
-        action={process.env.REACT_APP_FORMSPREE_URL}
+        action={process.env.REACT_APP_FORMSPREE_URL || "https://formspree.io/f/YOUR_FORM_ID"}
         method="POST"
-        target="_blank"
+        encType="multipart/form-data"
       >
         <Row>
           <Col md={6}>
