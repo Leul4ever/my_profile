@@ -487,6 +487,26 @@ button:focus {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  font-family: "PT Mono", monospace !important;
+}
+
+.project-card-view .card-title {
+  font-family: "PT Mono", monospace !important;
+  font-size: 1.5em !important;
+  font-weight: 600 !important;
+  color: white !important;
+  margin-bottom: 15px !important;
+  letter-spacing: 0.5px !important;
+  word-spacing: 1px !important;
+}
+
+.project-card-view .card-text {
+  font-family: "PT Mono", monospace !important;
+  font-size: 1em !important;
+  line-height: 1.7 !important;
+  color: white !important;
+  letter-spacing: 0.3px !important;
+  word-spacing: 2px !important;
 }
 
 .project-card-view:hover {
