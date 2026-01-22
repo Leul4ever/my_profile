@@ -7,9 +7,8 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi everyone! I’m <span className="purple">Leul Abera</span>{" "}
-            from <span className="purple">Addis Ababa, Ethiopia</span>.
+          <p style={{ textAlign: "left", fontWeight: "400", lineHeight: "1.8" }}>
+            Hi everyone! I’m <span className="purple">Leul Abera</span>.
             <br />
             <br />
             I’m a Software Engineer with a strong focus on data analytics, artificial intelligence, and building practical, scalable software systems. I enjoy working across the full lifecycle of software — from data collection and analysis to backend services and user-facing applications.

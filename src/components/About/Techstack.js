@@ -11,7 +11,8 @@ import Redis from "../../Assets/TechIcons/Redis.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
 import Postgres from "../../Assets/TechIcons/SQL.svg"; // Reusing SQL for Postgres if specific isn't found
-import { SiFlutter, SiNestjs } from "react-icons/si";
+import { SiFlutter, SiNestjs, SiOpenai, SiTensorflow, SiApachespark, SiApacheairflow, SiAmazonaws, SiMicrosoftazure, SiGooglecloud } from "react-icons/si";
+import { AiOutlineRobot } from "react-icons/ai";
 
 function Techstack() {
   return (
@@ -24,6 +25,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={SQL} alt="sql" />
         <div className="tech-icons-text">SQL</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai fontSize={"24px"} />
+        <div className="tech-icons-text">Gen AI & LLMs</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTensorflow fontSize={"24px"} />
+        <div className="tech-icons-text">Deep Learning</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <AiOutlineRobot fontSize={"24px"} />
+        <div className="tech-icons-text">RAG</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachespark fontSize={"24px"} />
+        <div className="tech-icons-text">Spark</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApacheairflow fontSize={"24px"} />
+        <div className="tech-icons-text">Airflow</div>
       </Col>
 
       {/* Backend & Full Stack */}
@@ -70,6 +91,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={Docker} alt="docker" />
         <div className="tech-icons-text">Docker</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAmazonaws fontSize={"24px"} />
+        <div className="tech-icons-text">AWS</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftazure fontSize={"24px"} />
+        <div className="tech-icons-text">Azure</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiGooglecloud fontSize={"24px"} />
+        <div className="tech-icons-text">GCP</div>
       </Col>
     </Row>
   );

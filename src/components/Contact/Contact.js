@@ -9,28 +9,29 @@ function Contact() {
       <Container fluid className="contact-section" id="contact">
         <Particle />
         <Container className="contact-content">
-          <Row style={{ justifyContent: "center", padding: "10px" }}>
-            <Col
-              md={7}
-              style={{
-                justifyContent: "center",
-                paddingTop: "30px",
-                paddingBottom: "50px",
-              }}
-            >
-              <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-                Get In <strong className="purple">Touch </strong>
-              </h1>
-              <p style={{ textAlign: "center" }}>
-                Whether you want to get in touch, talk about a project collaboration, or just say hi, I'd love to hear from you.
-                <br />
-                Simply fill the below form and send me an email.
-              </p>
+          <Row>
+            {/* Left Column: Contact Info */}
+            <Col md={6} className="contact-info-col" style={{ textAlign: "left", paddingTop: "50px" }}>
+              <div className="contact-info-header">
+                <span className="purple" style={{ fontSize: "3em" }}>📧</span>
+                <h1 style={{ fontSize: "3.5em", fontWeight: "bold", paddingTop: "10px" }}>
+                  Contact <span className="purple">Me</span>
+                </h1>
+                <p className="contact-desc" style={{ fontSize: "1.2em", paddingTop: "10px", paddingBottom: "30px", opacity: "0.9" }}>
+                  The typical response time is up to 24 hours.
+                </p>
+
+                <div className="contact-detail">
+                  <h4 style={{ fontWeight: "bold", fontSize: "1.3em" }}>Email Reference</h4>
+                  <p style={{ fontSize: "1.1em", color: "#c770f0" }}>
+                    leul0593@gmail.com
+                  </p>
+                </div>
+              </div>
             </Col>
-          </Row>
-          
-          <Row style={{ justifyContent: "center", paddingTop: "20px" }}>
-            <Col md={8} lg={6} className="contact-form-col">
+
+            {/* Right Column: Contact Form */}
+            <Col md={6} className="contact-form-col">
               <ContactForm />
             </Col>
           </Row>

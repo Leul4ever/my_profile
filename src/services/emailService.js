@@ -1,9 +1,9 @@
 import emailjs from '@emailjs/browser';
 
 // EmailJS configuration - replace with your actual IDs
-const SERVICE_ID = process.env.REACT_APP_EMAILJS_SERVICE_ID || 'service_vv1yn3h';
+const SERVICE_ID = "service_7qnhaxf";
 const TEMPLATE_ID = process.env.REACT_APP_EMAILJS_TEMPLATE_ID || 'template_kkvh5l4';
-const PUBLIC_KEY = process.env.REACT_APP_EMAILJS_PUBLIC_KEY || 'j9c38JrPVSU4vFg-v';
+const PUBLIC_KEY = 's0isbRV8QaQDvulyV';
 
 /**
  * Initialize EmailJS with public key
@@ -33,11 +33,11 @@ export const sendEmail = async (formData) => {
       templateParams,
       PUBLIC_KEY
     );
-    
+
     if (response.status === 200) {
       return { success: true, message: 'Email sent successfully!' };
     }
-    
+
     throw new Error('Failed to send email');
   } catch (error) {
     console.error('Email service error:', error);
