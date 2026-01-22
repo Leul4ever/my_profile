@@ -10,7 +10,6 @@ import Mongo from "../../Assets/TechIcons/Mongo.svg";
 import Redis from "../../Assets/TechIcons/Redis.svg";
 import Git from "../../Assets/TechIcons/Git.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
-import Postgres from "../../Assets/TechIcons/SQL.svg"; // Reusing SQL for Postgres if specific isn't found
 import { SiFlutter, SiNestjs, SiOpenai, SiTensorflow, SiApachespark, SiApacheairflow, SiAmazonaws, SiMicrosoftazure, SiGooglecloud } from "react-icons/si";
 import { AiOutlineRobot } from "react-icons/ai";
 
